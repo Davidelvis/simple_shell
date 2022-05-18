@@ -92,7 +92,7 @@ char *_strcat(char *strc1, char *strc2)
 			;
 	}
 	newlen = len1 + len2 + 2;
-	newstring = malloc(newlen * sizeof(char))
+	newstring = malloc(newlen * sizeof(char));
 		if (newstring == NULL)
 			return (NULL);
 	for (i = 0; i < len1; i++)
